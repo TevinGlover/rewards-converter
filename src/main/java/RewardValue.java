@@ -5,6 +5,7 @@ public class RewardValue {
         this.cashValue = cashValue;
 
     }
+
     public RewardValue(int milesValue){ // constructor2
         this.milesValue = milesValue;
 
@@ -14,5 +15,11 @@ public class RewardValue {
     }
 
     public int getMilesValue() {return milesValue;
+
     }
+
+    // RewardValue must convert from miles to cash at a rate of 0.0035.
+
+
+
 }
